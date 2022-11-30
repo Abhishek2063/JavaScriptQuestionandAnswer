@@ -1,0 +1,23 @@
+/**
+ * Return Something to Me!
+Write a function that returns the string "something" joined with a space " " and the given argument a.
+
+Examples
+giveMeSomething("is better than nothing") ➞ "something is better than nothing"
+
+giveMeSomething("Bob Jane") ➞ "something Bob Jane"
+
+giveMeSomething("something") ➞ "something something"
+Notes
+Assume an input is given.
+
+
+
+Test.assertEquals(giveMeSomething("a"), "something a")
+Test.assertEquals(giveMeSomething("is cooking"), "something is cooking")
+Test.assertEquals(giveMeSomething(" is cooking"), "something  is cooking")
+ */
+
+function giveMeSomething(a) {
+	return "something" + " " + a
+}
